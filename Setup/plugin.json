@@ -3,5 +3,35 @@
     "version": "1.00",
     "name": "SMTPConfig",
     "description": "This plugin gives you configure your own SMTP server to send all emails. Please edit your server settings in Filter.php file.",
-    "author": "ImpressPages"
+    "author": "ImpressPages",
+    "options": [
+        {
+            "label": "SMTP server",
+            "name": "server",
+            "default": "smtp.gmail.com"
+        },
+        {
+            "label": "Enable SMTP authentication",
+            "name": "smtpAuth",
+            "type": "checkbox",
+            "default": true
+        },
+        {
+            "label": "User name",
+            "name": "username",
+            "default": "example@gmail.com"
+        },
+        {
+            "label": "Password",
+            "name": "password",
+            "default": ""
+        },
+        {
+            "label": "Security protocol",
+            "name": "secure",
+            "default": "ssl",
+            "type": "select",
+            "values": ["SSL", "TLS", ""]
+        }
+    ]
 }
