@@ -14,7 +14,7 @@
             "label": "Enable SMTP authentication",
             "name": "smtpAuth",
             "type": "checkbox",
-            "default": true
+            "default": 1
         },
         {
             "label": "User name",
