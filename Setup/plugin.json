@@ -1,6 +1,6 @@
 {
     "title": "SMTP Config",
-    "version": "1.00",
+    "version": "1.01",
     "name": "SMTPConfig",
     "description": "This plugin gives you configure your own SMTP server to send all emails. Please edit your server settings in Filter.php file.",
     "author": "ImpressPages",
