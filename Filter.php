@@ -14,7 +14,7 @@ class Filter
         $mail->Port = ipGetOption('SMTPConfig.port', 465); // set the SMTP port for the GMAIL server
         $mail->Username = ipGetOption('SMTPConfig.username'); // SMTP account username
         $mail->Password = ipGetOption('SMTPConfig.password');
-        $mail->SMTPSecure = strtolower(ipGetOption('SMTPConfig/.secure', 'ssl'));
+        $mail->SMTPSecure = strtolower(ipGetOption('SMTPConfig.secure', 'ssl'));
         return $mail;
     }
 }
